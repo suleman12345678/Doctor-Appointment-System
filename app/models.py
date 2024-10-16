@@ -1,3 +1,4 @@
+from datetime import datetime
 from django.db import models
 from django.http import request
 from django.contrib.auth.models import User
@@ -34,4 +35,3 @@ class Doctors(models.Model):
     Gynaecologist = models.TextField()
     Dentist= models.TextField()
     Cardiologist = models.TextField()
-    
